@@ -40,9 +40,6 @@ readme = "README.md" # Optional
 # https://packaging.python.org/guides/distributing-packages-using-setuptools/#python-requires
 requires-python = ">=3.7"
 
-# This is either text indicating the license for the distribution, or a file
-# that contains the license
-# https://packaging.python.org/en/latest/specifications/core-metadata/#license
 license = {file = "LICENSE.txt"}
 
 # This field adds keywords for your project which will appear on the
@@ -81,8 +78,7 @@ classifiers = [  # Optional
   "Intended Audience :: Developers",
   "Topic :: Software Development :: Build Tools",
 
-  # Pick your license as you wish
-  "License :: OSI Approved :: MIT License",
+  "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
 
   # Specify the Python versions you support here. In particular, ensure
   # that you indicate you support Python 3. These classifiers are *not*
